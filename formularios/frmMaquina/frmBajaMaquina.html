@@ -1,0 +1,31 @@
+<!--Baja-->
+	<form action="#" id="frmBajaMaquina" name="frmBajaMaquina"  class="pr-5 pl-5">
+	<h1>Formulario de baja para Máquinas Registradas</h1>
+	<div class="ui-widget">
+		<label for="idMaquina">ID Máquina: </label>
+		<input class="comboMaquina" name="comboMaquina">
+		<input type="text" class="btn btn-primary" name="verMaquina" value="Cargar">
+	</div>
+	</form>
+
+	<form style="display: none" action="#" id="frmBajaMaquinaSeleccionado" name="frmBajaMaquinaSeleccionado" class="pr-5 pl-5">
+	 <h1>Maquina a eliminar</h1>
+
+	  <div class="form-group">
+	    <label for="idMaquina">ID Máquina:</label>
+	    <input type="text" class="form-control" id="idMaquina" disabled="disabled">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtNombreMaquina">Nombre:</label>
+	    <input type="text" class="form-control" id="txtNombreMaquina" disabled="disabled">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtModeloMaquina">Modelo:</label>
+	    <input type="text" class="form-control" id="txtModeloMaquina" disabled="disabled">
+	  </div>
+
+		<button type="button" id="btnBajaMaquina" class="btn btn-primary">Dar de baja</button>
+		<button type="button" id="btnBajaMaquinaCancelar" class="btn btn-primary">Cancelar</button>
+	</form>

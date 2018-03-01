@@ -1,0 +1,65 @@
+<!--Modificar-->
+	<form action="#" id="frmModMaquina" class="pr-5 pl-5">
+	<h1>Formulario de modificación para Máquinas Registradas</h1>	
+	
+	<div class="ui-widget">
+		<label for="idMaquina">ID Máquina: </label>
+		<input class="comboMaquina" name="comboMaquina">
+		<input type="text" class="btn btn-primary" name="verMaquina" value="Cargar">
+	</div>
+	</form>
+
+	<!-- Modificar-->
+	<form style="display: none" action="#" id="frmModMaquinaSeleccionada"  name="frmModMaquinaSeleccionada" class="pr-5 pl-5">
+		
+	  <div class="form-group">
+	    <label for="txtModeloMaquina">Modelo:</label>
+	    <input type="text" class="form-control" id="txtModeloMaquina" placeholder="Ej: Av45">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtIDMaquina">ID Maquina:</label>
+	    <input type="text" class="form-control" id="txtIDMaquina" disabled="disabled" placeholder="Ej: 2565">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtNombreMaquina">Nombre:</label>
+	    <input type="text" class="form-control" id="txtNombreMaquina" placeholder="Ej: Camion Tractor">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtDecMaquina">Descripción:</label>
+	    <input type="text" class="form-control" id="txtDecMaquina" placeholder="Ej: Un camion que tractora muy bien">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtPrecioMaquina">Precio del Alquiler:</label>
+	    <input type="text" class="form-control" id="txtPrecioMaquina" placeholder="Ej: 46.25">
+	  </div>
+
+	<div class="form-group">
+	    <label for="fechaCompra">Fecha de compra:</label>
+	    <input type="text" class="form-control" id="fechaCompra">
+	  </div>
+
+	  	<div class="form-group">
+	    <label for="precioCompra">Importe de compra:</label>
+	    <input type="text" class="form-control" id="precioCompra" placeholder="Ej: 45.55">
+	  </div>
+
+	<div class="form-group">
+	<label for="proveedor">Proveedor:</label>
+	  <div class="ui-widget">  	
+		  <input name="proveedor" id="proveedor" class="form-control comboProveedor"><br>
+	  </div>
+	</div>
+
+
+	<div class="form-check">
+		<label class="form-check-label">
+	  	<input class="form-check-input" type="checkbox" value="" id="estadoMaquinaria" name="estadoMaquinaria">
+	  	Activo</label>
+	</div>
+
+	    <button type="button" name="btnModificarMaquina" id="btnModificarMaquina" class="btn btn-primary">Actualizar</button>
+	</form> 

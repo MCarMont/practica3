@@ -1,0 +1,65 @@
+<!--Modificar-->
+	<form action="#" id="frmModEmpleado"  class="pr-5 pl-5">
+		<h1>Modificación de Empleados Registrados</h1>
+	       <!-- <div id="selectModificarEmpleado" class="selectDivEmpleado sep-inf"></div><br> -->
+	       <div class="ui-widget">
+			  <label for="DNI">DNI del Empleado: </label>
+			  <input class="comboEmpleado">
+			  <input type="text" class="btn btn-primary" name="verEmpleado" value="Cargar">
+			</div>
+			<br>
+		
+	</form>
+	<br>
+	<!--Modificar-->
+	 <form style="display: none" action="#" id="frmModEmpleadoSeleccionado" name="frmModEmpleadoSeleccionado" class="pr-5 pl-5">
+	 <h1>Formulario de modificación de Empleados</h1>
+
+	  <div class="form-group">
+	    <label for="txtDNIEmpleado">DNI:</label>
+	    <input type="text" class="form-control" id="txtDNIEmpleado" disabled="disabled" placeholder="Ej: 45686962G">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtNombreEmpleado">Nombre:</label>
+	    <input type="text" class="form-control" id="txtNombreEmpleado" placeholder="Ej: Pepe">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtApellidoEmpleado">Apellido:</label>
+	    <input type="text" class="form-control" id="txtApellidoEmpleado" placeholder="Ej: Marquez Marin">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtTelefonoEmpleado">Teléfono:</label>
+	    <input type="text" class="form-control" id="txtTelefonoEmpleado" placeholder="Ej: 666555444">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtDireccionEmpleado">Dirección:</label>
+	    <input type="text" class="form-control" id="txtDireccionEmpleado" placeholder="Ej: La Vendimia 45">
+	  </div>
+
+	  <!-- <div class="form-group"> 
+	    <label for="txtLocalidadEmpleado">Localidad:</label>
+	    <input type="text" class="form-control" id="txtLocalidadEmpleado" placeholder="Ej: Montequinto">
+	  </div>-->
+
+	  	<label for="cmbLoc2">Localidades:</label>
+   			<select name="cmbLoc2" class="cmbLoc" id="cmbLoc2"> 
+    	</select>
+
+	  <div class="form-group">
+	    <label for="txtCPostalEmpleado">C.Postal:</label>
+	    <input type="text" class="form-control" id="txtCPostalEmpleado" placeholder="Ej: 41089">
+	  </div>
+	
+	<div class="form-check">
+		<label class="form-check-label">
+	  	<input class="form-check-input" type="checkbox" value="" id="estadoEmpleado" name="estadoEmpleado">
+	  	Activo</label>
+	</div>
+	      <button type="button" id="btnModificarEmpleado" class="btn btn-primary">Actualizar</button>
+	      <button type="button" id="btnModificarEmpleadoCancelar" class="btn btn-primary">Cancelar</button>
+	</form> 
+	

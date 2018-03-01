@@ -1,0 +1,30 @@
+<!--Listar-->
+	<form action="#" id="frmListarAlquiler" class="pr-5 pl-5">
+		<h1>Listado de todos los alquileres acaecidos</h1>	
+		<br>
+		<div>
+
+		</div>
+       		 <input  type="button" class="btn btn-primary" value="Mostrar listado" id="btnConsultarAlquileres"  name="btnConsultarAlquileres" />
+        <br>
+
+        <div id="filtroAlq" style="display: none"> 
+        	<div  class="form-group">
+	        	<label for="btnFilter">Buscar en toda la tabla</label><br>
+	        	<input type='text' id='filter' />
+	        	<button id='btnFilter' class="btn btn-primary btn-sm">Aceptar</button>
+			</div>
+			<div id="estado" class="form-group">
+  				<label for="sel1">Filtrar por estado </label>
+  				<select class="form-control  col-sm-4" id="sel1">
+	    			<option value=2>Mostrar todos</option>
+	    			<option value=1>Activos</option>
+	    			<option value=0>Inactivos</option>
+  				</select>
+			</div> 
+    	</div>
+		<br>
+
+		<div id="listadoAlquileres" name="listadoAlquileres">
+		
+	</form>

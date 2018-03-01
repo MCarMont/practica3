@@ -1,0 +1,31 @@
+<!--Baja-->
+	<form action="#" id="frmBajaCliente" name="frmBajaCliente" class="pr-5 pl-5">
+		<h1>Formulario de baja para Clientes Regitrados</h1>
+	<div class="ui-widget">
+		<label for="DNI">DNI del Cliente: </label>
+		<input class="comboCliente">
+		<input type="text" class="btn btn-primary" name="verCliente" value="Cargar">
+	</div>
+	</form>
+
+	<form style="display: none" action="#" id="frmBajaClienteSeleccionado" name="frmBajaClienteSeleccionado" class="pr-5 pl-5">
+	 <h1>Cliente a eliminar</h1>
+
+	  <div class="form-group">
+	    <label for="txtDNICliente">DNI:</label>
+	    <input type="text" class="form-control" id="txtDNICliente" disabled="disabled">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtNombreCliente">Nombre:</label>
+	    <input type="text" class="form-control" id="txtNombreCliente" disabled="disabled">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtApellidoCliente">Apellido:</label>
+	    <input type="text" class="form-control" id="txtApellidoCliente" disabled="disabled">
+	  </div>
+
+		<button type="button" id="btnBajaCliente" class="btn btn-primary">Dar de baja</button>
+		<button type="button" id="btnBajaClienteCancelar" class="btn btn-primary">Cancelar</button>
+	</form>

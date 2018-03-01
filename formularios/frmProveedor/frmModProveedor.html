@@ -1,0 +1,64 @@
+<!--Modificar-->
+	<form action="#" id="frmModProveedor"  class="pr-5 pl-5">
+		<h1>Modificación de Proveedores Registrados</h1>
+	       <!-- <div id="selectModificarProveedor" class="selectDivProveedor sep-inf"></div><br> -->
+	       <div class="ui-widget">
+			  <label for="DNI">DNI del Proveedor: </label>
+			  <input class="comboProveedor">
+			  <input type="text" class="btn btn-primary" name="verProveedor" value="Cargar">
+			</div>
+	</form>
+
+	<!-- Modificar-->
+	 <form style="display: none" action="#" id="frmModProveedorSeleccionado" name="frmModProveedorSeleccionado" class="pr-5 pl-5">
+	 <h1>Formulario de modificación de Proveedores</h1>
+
+	  <div class="form-group">
+	    <label for="txtDNIProveedor">DNI:</label>
+	    <input type="text" class="form-control" id="txtDNIProveedor" disabled="disabled" placeholder="Ej: 456879214H">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtNombreProveedor">Nombre:</label>
+	    <input type="text" class="form-control" id="txtNombreProveedor" placeholder="Ej: Joselito">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtApellidoProveedor">Apellido:</label>
+	    <input type="text" class="form-control" id="txtApellidoProveedor" placeholder="Ej: El de los Palotes">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtEmpresaProveedor">Empresa:</label>
+	    <input type="text" class="form-control" id="txtEmpresaProveedor" placeholder="Ej: La becaria">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtTelefonoProveedor">Teléfono:</label>
+	    <input type="text" class="form-control" id="txtTelefonoProveedor" placeholder="Ej: 789456123">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtDireccionProveedor">Dirección:</label>
+	    <input type="text" class="form-control" id="txtDireccionProveedor" placeholder="Ej: La calle de al lado 55">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtLocalidadProveedor">Localidad:</label>
+	    <input type="text" class="form-control" id="txtLocalidadProveedor" placeholder="Ej: Dos Hermanas">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtCPostalProveedor">C.Postal:</label>
+	    <input type="text" class="form-control" id="txtCPostalProveedor" placeholder="Ej: 45687">
+	  </div>
+
+		<div class="form-check">
+			<label class="form-check-label">
+	  		<input class="form-check-input" type="checkbox" value="" id="estadoProveedor" name="estadoProveedor">
+	  		Activo</label>
+		</div>
+
+	      <button type="button" id="btnModificarProveedor" class="btn btn-primary">Actualizar</button>
+	      <button type="button" id="btnModificarProveedorCancelar" class="btn btn-primary">Cancelar</button>
+	</form> 

@@ -1,0 +1,28 @@
+	<!--Listar-->
+
+	<form action="#" id="frmListarProveedor" name="frmListarProveedor"  class="pr-5 pl-5">
+		<h1>Listado de todos los Proveedores Registrado</h1>
+		<br>	
+		<div>
+		<input type="button" class="btn btn-primary" value="Mostrar listado" id="btnConsultarProv"  name="btnConsultarProv" />
+		</div>
+		<br>
+        <div id="filtroProv" style="display: none"> 
+        	<div  class="form-group">
+	        	<label for="btnFilter">Buscar en toda la tabla</label><br>
+	        	<input type='text' id='filter' />
+	        	<button id='btnFilter' class="btn btn-primary btn-sm">Aceptar</button>
+			</div>
+			<div id="estado" class="form-group">
+  				<label for="sel1">Filtrar por estado </label>
+  				<select class="form-control  col-sm-4" id="sel1">
+	    			<option value=2>Mostrar todos</option>
+	    			<option value=1>Activos</option>
+	    			<option value=0>Inactivos</option>
+  				</select>
+			</div> 
+    	</div>
+		<br>
+		<div id="listadoProveedor" name="listadoProveedor"></div>	
+
+	</form>

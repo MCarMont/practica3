@@ -1,0 +1,28 @@
+	<!--Listar-->
+	<form action="#" id="frmListarMaquina" name="frmListarMaquina">
+	<h1>Listado de todas las máquinas</h1>	
+	<br>
+	<div>
+	<input type="button" class="btn btn-primary" value="Mostrar listado" id="btnConsultarMaq"  name="btnConsultarMaq" />
+  	</div>
+  	  <br>
+        <div id="filtroMaq" style="display: none"> 
+        	<div  class="form-group">
+	        	<label for="btnFilter">Buscar en toda la tabla</label><br>
+	        	<input type='text' id='filter' />
+	        	<button id='btnFilter' class="btn btn-primary btn-sm">Aceptar</button>
+			</div>
+			<div id="estado" class="form-group">
+  				<label for="sel1">Filtrar por estado </label>
+  				<select class="form-control  col-sm-4" id="sel1">
+	    			<option value=2>Mostrar todos</option>
+	    			<option value=1>Activos</option>
+	    			<option value=0>Inactivos</option>
+  				</select>
+			</div> 
+    	</div>
+		<br>
+
+	<div id="listadoMaquina" name="listadoMaquina"></div>	
+
+	</form>

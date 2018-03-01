@@ -1,0 +1,61 @@
+<!--Modificar-->
+	<form action="#" id="frmModCliente"  class="pr-5 pl-5">
+		<h1>Modificación de Clientes Registrados</h1>
+	       <!-- <div id="selectModificarCliente" class="selectDivCliente sep-inf"></div><br> -->
+	       <div class="ui-widget">
+			  <label for="DNI">DNI del Cliente: </label>
+			  <input class="comboCliente">
+			  <input type="text" class="btn btn-primary" name="verCliente" value="Cargar">
+			</div>
+			<br>
+		
+	</form>
+	<br>
+	<!--Modificar-->
+	 <form style="display: none" action="#" id="frmModClienteSeleccionado" name="frmModClienteSeleccionado" class="pr-5 pl-5">
+	 <h1>Formulario de modificación de Clientes</h1>
+
+	  <div class="form-group">
+	    <label for="txtDNICliente">DNI:</label>
+	    <input type="text" class="form-control" id="txtDNICliente" disabled="disabled" placeholder="Ej: 45686962G">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtNombreCliente">Nombre:</label>
+	    <input type="text" class="form-control" id="txtNombreCliente" placeholder="Ej: Pepe">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtApellidoCliente">Apellido:</label>
+	    <input type="text" class="form-control" id="txtApellidoCliente" placeholder="Ej: Marquez Marin">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtTelefonoCliente">Teléfono:</label>
+	    <input type="text" class="form-control" id="txtTelefonoCliente" placeholder="Ej: 666555444">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtDireccionCliente">Dirección:</label>
+	    <input type="text" class="form-control" id="txtDireccionCliente" placeholder="Ej: La Vendimia 45">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtLocalidadCliente">Localidad:</label>
+	    <input type="text" class="form-control" id="txtLocalidadCliente" placeholder="Ej: Montequinto">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtCPostalCliente">C.Postal:</label>
+	    <input type="text" class="form-control" id="txtCPostalCliente" placeholder="Ej: 41089">
+	  </div>
+	
+	<div class="form-check">
+		<label class="form-check-label">
+	  	<input class="form-check-input" type="checkbox" value="" id="estadoCliente" name="estadoCliente">
+	  	Activo</label>
+	</div>
+	      <button type="button" id="btnModificarCliente" class="btn btn-primary">Actualizar</button>
+	      <button type="button" id="btnModificarClienteCancelar" class="btn btn-primary">Cancelar</button>
+	</form> 
+	

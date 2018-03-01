@@ -1,0 +1,38 @@
+	<!--Baja-->
+	<form action="#" id="frmBajaProveedor" name="frmBajaProveedor" class="pr-5 pl-5">
+		<h1>Formulario de baja para Proveedores Regitrados</h1>
+		<br>
+	     <div class="ui-widget">
+			  <label for="DNI">DNI del Proveedor: </label>
+			  <input class="comboProveedor">
+			  <input type="text" class="btn btn-primary" name="verProveedor" value="Cargar">
+		</div>
+		<br>
+	</form>
+
+	<form style="display: none" action="#" id="frmBajaProveedorSeleccionado" name="frmBajaProveedorSeleccionado" class="pr-5 pl-5">
+	 <h1>Proveedor a eliminar</h1>
+
+	  <div class="form-group">
+	    <label for="txtDNIProveedor">DNI:</label>
+	    <input type="text" class="form-control" id="txtDNIProveedor" disabled="disabled">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtNombreProveedor">Nombre:</label>
+	    <input type="text" class="form-control" id="txtNombreProveedor"  disabled="disabled">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtApellidoProveedor">Apellido:</label>
+	    <input type="text" class="form-control" id="txtApellidoProveedor"  disabled="disabled">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="txtEmpresaProveedor">Empresa:</label>
+	    <input type="text" class="form-control" id="txtEmpresaProveedor"  disabled="disabled">
+	  </div>
+
+	  	<button type="button" id="btnBajaProveedor" class="btn btn-primary">Dar de baja</button>
+	    <button type="button" id="btnBajaProveedorCancelar" class="btn btn-primary">Cancelar</button>
+	</form>
