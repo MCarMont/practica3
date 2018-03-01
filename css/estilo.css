@@ -1,0 +1,55 @@
+/****ESTILO*****/
+#mensajes{
+	position: fixed;
+	width: 25%;
+	z-index: 2000;
+	right: 0px;
+	top: 10px;
+	
+}
+
+.alert{
+	transform: translateX(101%);
+	transition: transform 0.5s;
+}
+
+.transicionAlerta{
+	
+	-webkit-transform: translateX(-15px);
+	-ms-transform: translateX(-15px);
+	-o-transform: translateX(-15px);
+	transform: translateX(-15px);
+
+}
+
+body{
+	background-color: #c6e8ff;
+}
+
+table#tablaListada {
+    background: white;
+}
+
+.invisible{
+	display: none;
+}
+
+.cuerpo{
+    background: aliceblue;
+    padding: 30px;
+}
+
+#frmBienvenida h1{
+	max-width: 700px;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 50px;
+	margin-left: 25px;
+	text-shadow: 0px 1px 15px rgba(0, 0, 0, 1),0px 1px 15px rgba(0, 0, 0, 1),0px 1px 15px rgba(0, 0, 0, 1),0px 1px 15px rgba(0, 0, 0, 1);
+	font-weight: bold;
+}
+
+#frmBienvenida {
+    margin-left: 8vw;
+}
